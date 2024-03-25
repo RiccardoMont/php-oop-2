@@ -1,0 +1,21 @@
+.container{
+    
+
+     .row {
+        width: 80%;
+        display: flex;
+        
+        
+        
+       
+
+
+        .card{
+            width: calc((100%/12)*4);
+            padding: 0 2rem;
+            border: 2px solid black;
+        }
+
+    }
+
+}
