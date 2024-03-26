@@ -7,7 +7,7 @@ $articles = [
         'Collare', 
         'https://picsum.photos/400/200',
         15,
-        new Categoria('cane'),
+        new Categoria('gatto'),
         new Tipologia('ciotola', 'elegante ciotola decorata in metallo')
     ),
     new DetailedArticolo(
@@ -18,11 +18,18 @@ $articles = [
         new Tipologia('elastico', 'elastico per raccogliere le orecchie')
     ),
     new DetailedArticolo(
-        'guinzaglio', 
+        'Guinzaglio', 
         'https://picsum.photos/400/200',
         25,
         new Categoria('cane'),
         new Tipologia('fibra', 'lungo 30m')
+    ),
+    new DetailedArticolo(
+        'Mangime', 
+        'https://picsum.photos/400/200',
+        4.5,
+        new Categoria('pesce'),
+        new Tipologia('mangime in polvere', 'pesce secco tritato')
     )
 
 ]
